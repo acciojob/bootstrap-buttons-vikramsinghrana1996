@@ -1,2 +1,72 @@
 
 /* Your CSS Code here. */
+/* General button styling */
+button {
+    margin: 10px;
+}
+
+/* Primary button */
+#button-1 {
+    background-color: #0d6efd;
+    border: none;
+    color: white;
+}
+
+/* Outline Secondary button */
+#button-2 {
+    border: 2px solid #6c757d;
+    color: #6c757d;
+    background: transparent;
+}
+
+/* Success Large button */
+#button-3 {
+    background-color: #198754;
+    border: none;
+    color: white;
+    font-size: 1.25rem; /* Bootstrap's 'btn-lg' equivalent */
+    padding: 10px 20px;
+}
+
+/* Danger Small button */
+#button-4 {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    font-size: 0.875rem; /* Bootstrap's 'btn-sm' equivalent */
+    padding: 5px 10px;
+}
+
+/* Warning Large Full-width button */
+#button-5 {
+    background-color: #ffc107;
+    border: none;
+    color: black;
+    font-size: 1.25rem;
+    width: 100vw; /* Full viewport width */
+    padding: 10px 20px;
+}
+
+/* Disabled Info button */
+#button-6 {
+    background-color: #0dcaf0;
+    border: none;
+    color: white;
+    opacity: 0.65; /* Bootstrap's disabled opacity */
+    pointer-events: none;
+}
+
+/* Light button */
+#button-7 {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    color: black;
+}
+
+/* Link button */
+#button-8 {
+    background: none;
+    border: none;
+    color: #0d6efd;
+    text-decoration: underline;
+}
